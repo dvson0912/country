@@ -1,0 +1,42 @@
+.toggleButton {
+  width: 60px;
+  height: 28px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 2px 4px 2px 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  background-color: var(--primary-color);
+}
+
+.circle__left {
+  width: 24px;
+  height: 24px;
+  background-color: #000;
+  transform: translateX(-28px);
+  border-radius: 50%;
+  transition: all 0.2s linear;
+}
+.circle__right {
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: all 0.2s linear;
+}
+
+.icon__sun {
+  color: var(--IconSwitch-color);
+  margin-top: 5px;
+  font-size: 20px;
+  transition: all 0.2s linear;
+}
+.icon__moon {
+  color: var(--IconSwitch-color);
+  margin-top: 5px;
+  font-size: 20px;
+  transform: translateX(28px);
+  transition: all 0.2s linear;
+}
